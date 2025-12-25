@@ -34,6 +34,13 @@
                 "value":"IBM"   
             }
         ]
+    },
+    {
+        "id":"4",
+        "Field": "Password",
+        "Name":"password",
+        "Type":"password",
+        "Required": true
     }
    ]
 }

@@ -16,6 +16,10 @@ function App() {
     const name = item.Name;
     const filteredData = productDetails?.filter((item) => item[name])
 
+    if (item.Type === "password") {
+      return {};
+    }
+
     return {
       title: item.Field,
       dataIndex: item.Name,

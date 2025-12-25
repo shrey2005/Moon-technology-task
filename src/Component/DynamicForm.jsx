@@ -54,6 +54,18 @@ export default function DynamicForm({ onClose, editableProduct, setEditableProdu
                         </Form.Item>
                     )
                 }
+                else if (item.Type === "password") {
+                    return (
+                        <Form.Item
+                            key={item.id}
+                            name={item.Name}
+                            label={item.Field}
+                            type={item.Type}
+                        >
+                            <Input.Password />
+                        </Form.Item>
+                    )
+                }
                 else if (item.Type === "dropdown") {
                     return (
                         <Form.Item
