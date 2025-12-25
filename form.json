@@ -1,0 +1,39 @@
+{
+   "data":[
+    {
+        "id":1,
+        "Field": "First Name",
+        "Name": "firstName",
+        "Type": "text",
+        "Required": true
+    },
+    {
+        "id": "2",
+        "Field": "Email",
+        "Name":"email",
+        "Type":"email",
+        "Required": true
+    },
+    {
+        "id":"3",
+        "Field": "Company Name",
+        "Name":"companyName",
+        "Type":"dropdown",
+        "Required": true,
+        "Option":[
+            {
+                "label":"Google",
+                "value":"Google"
+            },
+            {
+                "label":"Microsoft",
+                "value":"Microsoft"
+            },
+            {
+                "label":"IBM",
+                "value":"IBM"   
+            }
+        ]
+    }
+   ]
+}
